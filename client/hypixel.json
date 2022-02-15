@@ -1,1 +1,177 @@
-{}
+{
+  "TimeChanger": {
+    "enabled": true,
+    "settings": {
+      "Mode": "Time",
+      "Time": 145.0,
+      "Cycle": 100.0
+    }
+  },
+  "ChestStealer": {
+    "enabled": false,
+    "settings": {
+      "Delay": 80.0,
+      "Random": 5.0
+    }
+  },
+  "KeepSprint": {
+    "enabled": true,
+    "settings": {}
+  },
+  "Animations": {
+    "enabled": true,
+    "settings": {
+      "Mode": "1.7",
+      "Item Scale": 0.7
+    }
+  },
+  "Watermark": {
+    "enabled": true,
+    "settings": {
+      "Mode": "RainLite",
+      "Display User": true
+    }
+  },
+  "EdgeJump": {
+    "enabled": false,
+    "settings": {}
+  },
+  "FastPlace": {
+    "enabled": false,
+    "settings": {
+      "Blocks Only": false
+    }
+  },
+  "AimAssist": {
+    "enabled": true,
+    "settings": {
+      "Mode": "Simple",
+      "Draw FOV": true,
+      "Swords Only": false,
+      "While Clicking": false,
+      "Visibility Check": false,
+      "FOV": 3.0,
+      "Distance": 3.0,
+      "Sensitivity": 100.0
+    }
+  },
+  "FullBright": {
+    "enabled": true,
+    "settings": {}
+  },
+  "SafeWalk": {
+    "enabled": false,
+    "settings": {}
+  },
+  "ArrayList": {
+    "enabled": true,
+    "settings": {
+      "Mode": "Rose"
+    }
+  },
+  "ClickGUI": {
+    "enabled": false,
+    "settings": {}
+  },
+  "InvMove": {
+    "enabled": false,
+    "settings": {}
+  },
+  "Outlines": {
+    "enabled": true,
+    "settings": {
+      "Entities": true,
+      "Color": "Rose"
+    }
+  },
+  "Velocity": {
+    "enabled": true,
+    "settings": {
+      "While Sprinting": false,
+      "While Clicking": false,
+      "Horizontal": 75.0,
+      "Vertical": 100.0,
+      "Chance": 80.0
+    }
+  },
+  "Teams": {
+    "enabled": false,
+    "settings": {}
+  },
+  "Clicker": {
+    "enabled": true,
+    "settings": {
+      "Mode": "Simple",
+      "Swords Only": true,
+      "Blockhit": false,
+      "CPS": 10.0,
+      "Chance": 50.0,
+      "Debounce": 40.0,
+      "Drops": false,
+      "Spikes": false,
+      "Drop Chance": 1.0,
+      "Spike Chance": 1.0
+    }
+  },
+  "NoFall": {
+    "enabled": false,
+    "settings": {
+      "Mode": "C03",
+      "Fall Distance": 3.0
+    }
+  },
+  "Reach": {
+    "enabled": true,
+    "settings": {
+      "Swords Only": true,
+      "Sprinting Only": false,
+      "Clicking Only": false,
+      "Minimum": 3.15,
+      "Maximum": 3.6,
+      "Chance": 70.0
+    }
+  },
+  "Sprint": {
+    "enabled": true,
+    "settings": {
+      "Mode": "Vanilla"
+    }
+  },
+  "Eagle": {
+    "enabled": false,
+    "settings": {
+      "Delay Min": 0.0,
+      "Delay Max": 55.0,
+      "Blocks Only": true
+    }
+  },
+  "Boost": {
+    "enabled": false,
+    "settings": {
+      "Timer": 1.1,
+      "Duration": 20.0
+    }
+  },
+  "CPS": {
+    "enabled": false,
+    "settings": {
+      "Display": "Left",
+      "x": 4.0,
+      "y": 70.0
+    }
+  },
+  "Ping": {
+    "enabled": false,
+    "settings": {
+      "x": 4.0,
+      "y": 90.0
+    }
+  },
+  "FPS": {
+    "enabled": false,
+    "settings": {
+      "x": 4.0,
+      "y": 80.0
+    }
+  }
+}
