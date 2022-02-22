@@ -1,11 +1,8 @@
 {
-  "TimeChanger": {
+  "version": "0.5",
+  "StreamerMode": {
     "enabled": true,
-    "settings": {
-      "Mode": "Time",
-      "Time": 145.0,
-      "Cycle": 100.0
-    }
+    "settings": {}
   },
   "ChestStealer": {
     "enabled": false,
@@ -14,9 +11,12 @@
       "Random": 5.0
     }
   },
-  "KeepSprint": {
+  "Watermark": {
     "enabled": true,
-    "settings": {}
+    "settings": {
+      "Mode": "Full",
+      "Display User": true
+    }
   },
   "Animations": {
     "enabled": true,
@@ -25,21 +25,32 @@
       "Item Scale": 0.7
     }
   },
-  "Watermark": {
+  "KeepSprint": {
     "enabled": true,
-    "settings": {
-      "Mode": "RainLite",
-      "Display User": true
-    }
+    "settings": {}
   },
   "EdgeJump": {
+    "enabled": false,
+    "settings": {}
+  },
+  "Ambience": {
+    "enabled": true,
+    "settings": {
+      "Time": 145.0,
+      "Cycle": 100.0,
+      "Hide Weather": true
+    }
+  },
+  "SafeWalk": {
     "enabled": false,
     "settings": {}
   },
   "FastPlace": {
     "enabled": false,
     "settings": {
-      "Blocks Only": false
+      "Blocks Only": false,
+      "Random": false,
+      "Delay": 0.0
     }
   },
   "AimAssist": {
@@ -47,10 +58,10 @@
     "settings": {
       "Mode": "Simple",
       "Draw FOV": true,
-      "Swords Only": false,
-      "While Clicking": false,
+      "Swords Only": true,
+      "While Clicking": true,
       "Visibility Check": false,
-      "FOV": 3.0,
+      "FOV": 5.0,
       "Distance": 3.0,
       "Sensitivity": 100.0
     }
@@ -59,58 +70,73 @@
     "enabled": true,
     "settings": {}
   },
-  "SafeWalk": {
-    "enabled": false,
-    "settings": {}
-  },
   "ArrayList": {
     "enabled": true,
     "settings": {
-      "Mode": "Rose"
+      "Custom Font": true
     }
+  },
+  "InvMove": {
+    "enabled": true,
+    "settings": {}
   },
   "ClickGUI": {
     "enabled": false,
     "settings": {}
-  },
-  "InvMove": {
-    "enabled": false,
-    "settings": {}
-  },
-  "Outlines": {
-    "enabled": true,
-    "settings": {
-      "Entities": true,
-      "Color": "Rose"
-    }
   },
   "Velocity": {
     "enabled": true,
     "settings": {
       "While Sprinting": false,
       "While Clicking": false,
-      "Horizontal": 75.0,
+      "Hypixel": false,
+      "Horizontal": 80.0,
       "Vertical": 100.0,
       "Chance": 80.0
     }
   },
-  "Teams": {
-    "enabled": false,
-    "settings": {}
+  "Spoofer": {
+    "enabled": true,
+    "settings": {
+      "Brand": "Lunar"
+    }
+  },
+  "Outlines": {
+    "enabled": true,
+    "settings": {
+      "Entities": false,
+      "Color": "Rose"
+    }
   },
   "Clicker": {
     "enabled": true,
     "settings": {
       "Mode": "Simple",
-      "Swords Only": true,
+      "Swords Only": false,
       "Blockhit": false,
-      "CPS": 10.0,
+      "CPS": 12.0,
+      "RNG": 1.0,
       "Chance": 50.0,
       "Debounce": 40.0,
       "Drops": false,
       "Spikes": false,
       "Drop Chance": 1.0,
       "Spike Chance": 1.0
+    }
+  },
+  "Teams": {
+    "enabled": true,
+    "settings": {}
+  },
+  "Reach": {
+    "enabled": true,
+    "settings": {
+      "Swords Only": true,
+      "Sprinting Only": false,
+      "Clicking Only": true,
+      "Minimum": 3.3,
+      "Maximum": 3.45,
+      "Chance": 80.0
     }
   },
   "NoFall": {
@@ -120,15 +146,11 @@
       "Fall Distance": 3.0
     }
   },
-  "Reach": {
-    "enabled": true,
+  "Boost": {
+    "enabled": false,
     "settings": {
-      "Swords Only": true,
-      "Sprinting Only": false,
-      "Clicking Only": false,
-      "Minimum": 3.15,
-      "Maximum": 3.6,
-      "Chance": 70.0
+      "Timer": 1.5,
+      "Duration": 19.0
     }
   },
   "Sprint": {
@@ -140,16 +162,9 @@
   "Eagle": {
     "enabled": false,
     "settings": {
-      "Delay Min": 0.0,
-      "Delay Max": 55.0,
-      "Blocks Only": true
-    }
-  },
-  "Boost": {
-    "enabled": false,
-    "settings": {
-      "Timer": 1.1,
-      "Duration": 20.0
+      "Delay Min": 25.0,
+      "Delay Max": 85.0,
+      "Blocks Only": false
     }
   },
   "CPS": {
@@ -157,14 +172,17 @@
     "settings": {
       "Display": "Left",
       "x": 4.0,
-      "y": 70.0
+      "y": 25.0
     }
   },
-  "Ping": {
-    "enabled": false,
+  "Blur": {
+    "enabled": true,
     "settings": {
-      "x": 4.0,
-      "y": 90.0
+      "Blur Strength": 5.0,
+      "Blur Compression": 2.0,
+      "Bloom": true,
+      "Bloom Strength": 2.0,
+      "Bloom Compression": 2.0
     }
   },
   "FPS": {
